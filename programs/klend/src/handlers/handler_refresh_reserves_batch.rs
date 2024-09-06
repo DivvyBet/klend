@@ -112,4 +112,4 @@ pub fn process(ctx: Context<RefreshReservesBatch>, skip_price_updates: bool) -> 
 }
 
 #[derive(Accounts)]
-pub struct RefreshReservesBatch {}
+pub struct RefreshReservesBatch<'info> {}
